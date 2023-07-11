@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">TheVoyager</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/about.html">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="mailto:vishvignair@gmail.com">Contact Me</a></li>
+                <li><a class="dropdown-item" href="#support" data-bs-target="#support" data-bs-toggle="modal">Support Me</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://source.unsplash.com/1600x800/?travel,mountain"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1600x800/?travel,beach"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1600x800/?travel,jungle"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="my-4 container">
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="col-lg-6 px-0">
+          <h1
+            class="display-4 fst-italic"
+            style="
+              font-family: 'Times New Roman', Times, serif;
+              font-weight: 600;
+            "
+          >
+            Welcome to My Travel Blog
+          </h1>
+          <p class="lead my-3">
+            "Embark on a captivating journey as we explore hidden gems, savor
+            local flavors, and embrace diverse cultures, unraveling the world's
+            wonders one adventure at a time."
+          </p>
+          <p class="lead mb-0">
+            <a href="#" class="text-body-emphasis fw-bold">Explore...</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <div class="card text-bg-dark">
+            <img src="Paris-1.jpg" class="card-img" alt="..." />
+            <div class="card-img-overlay">
+              <h5 class="card-title display-6 text-light">Explore Paris</h5>
+              <p class="card-text text-white">
+                Paris, the City of Love and Lights, beckons with its timeless
+                allure. Lose yourself in its elegant streets, savor decadent
+                cuisine, and marvel at iconic landmarks, as Paris weaves its
+                enchantment around you.
+              </p>
+              <a role="button" class="btn btn-outline-secondary small" href="/paris.html">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <span class="badge text-bg-info">Tnnovation</span>
+                      <h5 class="card-title">How India is changing</h5>
+                      <p class="card-text">
+                        In recent years, the travel industry in India has witnessed a remarkable transformation as people strive to enhance the travel experiences for both domestic and international tourists. Here are a few ways in which individuals and organizations are contributing to the improvement of travel experiences in India:
+                      </p>
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 my-5">
+                    <a href="/india.html"><img src="https://source.unsplash.com/250x250/?india,travel" class="img-fluid rounded-start" alt="..." /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card mb-3">
+                <a href="/security.html"><img src="https://source.unsplash.com/500x150/?security" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <span class="badge text-bg-danger">Security</span>
+                  <h5 class="card-title">Common Security Guidlines</h5>
+                  <p class="card-text">Security is paramount for an enjoyable travel experience. Effective safety measures, reliable transportation, secure accommodations, and tourist-friendly environments create a sense of comfort and trust. Prioritizing security enhances visitor satisfaction, encourages tourism, and preserves the reputation of a destination as a safe and welcoming place to explore.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg my-3">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">To Show the Best That the World has to Offer</h1>
+        <p class="lead">If you are the one who's passionate about truly exploring the unknown and show people what the world has to offer.Then today is your chance to join us in this inspiring journey.Apply now to become a member of our community.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <a role="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" href="mailto:vishvignair@gmail.com">Contact Me</a>
+          <a role="button" class="btn btn-outline-secondary btn-lg px-4" href="/about.html">Learn More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 p-0 shadow-lg">
+          <img class="rounded-lg-3" src="https://source.unsplash.com/520x300/?camera" alt="">
+      </div>
+    </div>
+    <footer class="py-3  bg-dark ">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-light">
+        <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-light">Home</a></li>
+        <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-light">About</a></li>
+      </ul>
+      <p class="text-center text-light">© 2023 TheVoyager</p>
+    </footer>
+    <div id="support" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Support Me</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Just Need Your Blessings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+<!-- https://source.unsplash.com/500x500/?paris -->
